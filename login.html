@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Taste Trip — Login</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root { --orange:#d96a19; --green:#2f7b45; --cream:#f5f3ea; }
+*{box-sizing:border-box}
+body{margin:0;font-family:'Poppins',system-ui,Arial;background:var(--cream);display:grid;place-items:center;min-height:100vh}
+.card{background:#fff;border-radius:18px;padding:2rem;box-shadow:0 12px 28px rgba(0,0,0,.08);width:100%;max-width:420px}
+h1{margin:0 0 .75rem;color:var(--green);text-align:center}
+.subtitle{text-align:center;color:#444;margin-bottom:1.5rem}
+label{font-weight:600;font-size:.9rem;color:var(--green)}
+input{width:100%;margin-top:.35rem;margin-bottom:1rem;padding:.65rem .75rem;border:2px solid rgba(0,0,0,.1);border-radius:12px}
+input:focus{outline:none;border-color:var(--orange)}
+.btn{width:100%;background:linear-gradient(135deg,var(--orange),var(--green));color:#fff;border:none;border-radius:999px;padding:.75rem 1rem;font-weight:600;cursor:pointer}
+.btn:hover{opacity:.9}
+.link{display:block;text-align:center;margin-top:1rem;font-size:.85rem;color:var(--orange);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Welcome to Taste Trip</h1>
+<p class="subtitle">Taste the world — please log in to continue</p>
+
+
+<form action="official.html">
+<label>Email</label>
+<input type="email" placeholder="you@example.com" required />
+
+
+<label>Password</label>
+<input type="password" placeholder="••••••••" required />
+
+
+<button class="btn" type="submit">Log In</button>
+</form>
+
+
+<a class="link" href="index.html">Continue without logging in →</a>
+</div>
+</body>
+</html>
